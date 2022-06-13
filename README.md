@@ -33,4 +33,5 @@
 
 ## Hospedagem
 
-- [Heroku](https://heroku.com/)
+- [Heroku](https://heroku.com/) 
+- [Site no ar](https://jgabriel-devops-lab-web.herokuapp.com/)
