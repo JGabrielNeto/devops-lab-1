@@ -8,7 +8,9 @@ const router = express.Router();
 
 // Criação da rota
 router.get('/welcome', (req, res) => {
-    res.json({ message: 'Aplicação - DevOps Mercurianos!' });
+    res.json({ 
+        message: 'API funcionando! - projeto feito para estudar deploy de aplicações fullstack no heroku com github actions' 
+    });
 });
 
 // Habilitando as funções que serão executadas entre as requisições e respostas (middlewares)

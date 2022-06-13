@@ -17,6 +17,6 @@ describe('Api Integration Test', () => {
 
         // Assert
         assert.equal(response.status, 200);
-        assert.equal(response.body.message, 'Aplicação - DevOps Mercurianos!');
+        assert.equal(response.body.message, 'API funcionando! - projeto feito para estudar deploy de aplicações fullstack no heroku com github actions');
     });
 });
