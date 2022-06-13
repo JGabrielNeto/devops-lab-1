@@ -34,7 +34,7 @@ describe('App Integration Test', () => {
         // Assert
         assert.equal(response.status, 200);
         assert.ok(response.text.includes('color: #eee'));
-        assert.ok(response.text.includes('<h1>API funcionando! - projeto feito para estudar deploy de aplicações fullstack no heroku com github actions</h1>'));
+        assert.ok(response.text.includes('API funcionando! - projeto feito para estudar deploy de aplicações fullstack no heroku com github actions'));
     });
 
     it('Should return npm a page with an error in title message', async () => {
